@@ -42,7 +42,7 @@ M.get_os_name = function()
   elseif os_name == "Windows_NT" then
     return "windows"
   else
-    error("Unsupported operating system: " .. os_name)
+    return "linux"
   end
 end
 
